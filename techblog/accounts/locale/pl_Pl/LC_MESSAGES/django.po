@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-25 15:36+0200\n"
+"POT-Creation-Date: 2024-08-21 13:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,35 +21,35 @@ msgstr ""
 msgid "General"
 msgstr "Ogólne"
 
-#: .\admin.py:10 .\models.py:39
+#: .\admin.py:10 .\models.py:40
 msgid "Account"
 msgstr "Konto"
 
-#: .\apps.py:8 .\models.py:40
+#: .\apps.py:8 .\models.py:41
 msgid "Accounts"
 msgstr "Konta"
 
-#: .\models.py:11
+#: .\models.py:12
 msgid "admin"
 msgstr "admin"
 
-#: .\models.py:12
+#: .\models.py:13
 msgid "journalist"
 msgstr "dziennikarz"
 
-#: .\models.py:13
+#: .\models.py:14
 msgid "user"
 msgstr "użytkownik"
 
-#: .\models.py:30
+#: .\models.py:31
 msgid "Email address"
 msgstr "Adres email"
 
-#: .\models.py:31
+#: .\models.py:32
 msgid "Is Staff"
 msgstr "Czy pracownik"
 
-#: .\models.py:32
+#: .\models.py:33
 msgid "Is Active"
 msgstr "Czy aktywny"
 

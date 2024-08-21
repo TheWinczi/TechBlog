@@ -11,7 +11,7 @@ services:
   haproxy:
     image: haproxy:latest
     volumes:
-      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+      - ./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
     ports:
       - "80:80"
     depends_on:
