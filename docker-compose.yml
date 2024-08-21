@@ -1,10 +1,10 @@
 version: '3.8'
 services:
-  zesi:
-    image: zesi
+  techblog:
+    image: techblog
     build: .
     environment:
-      - DEVELOPMENT=false
+      - DEVELOPMENT=true
     volumes:
       - db:/app/db
 
@@ -15,7 +15,7 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - zesi
+      - techblog
 
 volumes:
   db:

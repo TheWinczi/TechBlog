@@ -9,6 +9,6 @@ if [ "${DEVELOPMENT}" = "true" ]; then
   python manage.py loaddata posts.json &&
   python manage.py loaddata comments.json
 else
-    echo "Zmienna DEVELOPMENT (= ${DEVELOPMENT}) nie jest ustawiona na true. Nie zainicjalizowano danych."
+    echo "Variable DEVELOPMENT (= ${DEVELOPMENT}) is not set to true. No data have been initialized."
 fi
 

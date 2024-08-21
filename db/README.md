@@ -1,0 +1,1 @@
+This  empty folder is used for initializing database of the application
