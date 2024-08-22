@@ -6,7 +6,7 @@ services:
     environment:
       - DEVELOPMENT=true
     volumes:
-      - db:/app/db
+      - ./techblog/db:/app/techblog/db
 
   haproxy:
     image: haproxy:latest
